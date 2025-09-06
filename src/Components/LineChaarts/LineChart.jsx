@@ -1,6 +1,5 @@
 // import { LineChart as LChart, Line,PieChart,XAxis,YAxis } from 'recharts';
 import { Pie, PieChart as PChart, ResponsiveContainer } from 'recharts';
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const LineChart = () => {
 
@@ -35,7 +34,7 @@ const LineChart = () => {
                     <Pie data={mathMarksData} dataKey="name" outerRadius={60} fill="#8884d0" />
                 </PChart>
             </div>
-            <div>
+            {/* <div>
                 <BarChart width={1000} height={500} data={mathMarksData}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey={'name'} />
@@ -46,7 +45,7 @@ const LineChart = () => {
                     <Bar dataKey="physics" fill="blue"  activeBar={<Rectangle fill="gold" stroke="purple" />}/>
                     <Bar dataKey="chemistry" fill="red"  activeBar={<Rectangle fill="gold" stroke="purple" />}/>
                 </BarChart>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -6,6 +6,7 @@ import Nav from './Components/Nav'
 import PriceOptions from './Components/PriceOptions/PriceOptions'
 import LineChart from './Components/LineChaarts/LineChart'
 import Footer from './Components/Footer/Footer'
+import Phones from './Components/Phones/Phones'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <DaisyNav/>
         <PriceOptions/>
         <LineChart/>
+        <Phones/>
         <Footer/>
    </div>
     </>

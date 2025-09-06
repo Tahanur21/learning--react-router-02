@@ -52,7 +52,7 @@ const priceOptions =  [
     return (
         <div className="p-8">
             <h1 className="text-5xl text-center text-gray-900 font-semibold" >Best Prices in the town</h1>
-            <div className=" mt-12 grid md:grid-cols-3 gap-5 justify-center">
+            <div className=" mt-12 grid grid-cols-1 md:grid-cols-3 gap-5 justify-center">
                 {
                 priceOptions.map(priceOption => 
                 <PriceOption
